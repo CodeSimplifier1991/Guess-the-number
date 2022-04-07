@@ -19,7 +19,7 @@ while guess_count < guess_limit:
     # The player can enter their guess number
     entered_guessNumber = int(input("What is your guess? "))
 
-    # On each round, the guess count will be added by 1
+    # On each round, the guess count will be incremented by 1
     guess_count += 1
 
     # If the number entered by the player matches the lucky number
